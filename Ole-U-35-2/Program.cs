@@ -15,9 +15,9 @@ namespace Ole_U_35_2
             a.opretArbejder(35000, "Kristoffer");
             a.ArbejderListe();
             a.opretArbejder(37500, "Adam");
-   
+            a.ArbejderListe();
 
-            List<Medarbejder> listeAfArbejdere = a.ArbejderListe();
+            List<Medarbejder> listeAfArbejdere = a.returnArbejderListe();
 
            
             foreach (var item in listeAfArbejdere)

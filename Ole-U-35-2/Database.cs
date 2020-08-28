@@ -22,5 +22,10 @@ namespace Ole_U_35_2
 
             return arb;
         }
+
+        public List<Medarbejder> returnArbejderListe()
+        {
+            return arbejderListe;
+        }
     }
 }
